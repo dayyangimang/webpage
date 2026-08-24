@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Baru</title>
+    <style>
+      :root {
+        --bg: #222831;
+        --card: #2a3340;
+        --text: #f5f7fa;
+        --muted: #d5dce6;
+        --accent: #76abf3;
+        --pink: #ff8bbd;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .card {
+        width: min(800px, 90%);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 24px;
+        padding: 48px 32px;
+        text-align: center;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+      }
+
+      .badge {
+        display: inline-block;
+        background: rgba(255, 139, 189, 0.15);
+        color: var(--pink);
+        border-radius: 999px;
+        padding: 8px 14px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+
+      h1 {
+        font-size: clamp(2.2rem, 5vw, 4rem);
+        margin: 0 0 18px;
+      }
+
+      p {
+        color: var(--muted);
+        font-size: 1.08rem;
+        line-height: 1.8;
+        margin: 0 auto 28px;
+        max-width: 600px;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px 24px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, var(--accent), var(--pink));
+        color: #0f172a;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="badge">Untuk adiruyyy</div>
+      <h1>SEMANGATT DIRDUR</h1>
+      <p>
+        Semangat yah adiruy inau inau hamanya itu sampai oktober dan masih berlanjut sampai sems 3,
+        kamu harus tetap semangat ya, inget ada aku disini selalu menunggu cerita km.
+      </p>
+      <a href="web.html" class="btn">Kembali</a>
+    </div>
+  </body>
+</html>
